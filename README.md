@@ -1,12 +1,30 @@
-# React + Vite
+# ✅ ToDo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Minimalistyczna, ale rozbudowana aplikacja typu **lista zadań** (ToDo), stworzona w React + Vite.
 
-Currently, two official plugins are available:
+🔗 **Zobacz działającą wersję online**:  
+👉 [https://kornetas.github.io/ToDo-App](https://kornetas.github.io/ToDo-App)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funkcje
 
-## Expanding the ESLint configuration
+- ✅ Dodawanie, edytowanie, usuwanie zadań
+- ✅ Filtrowanie (wszystkie / aktywne / zrobione)
+- ✅ Tagi / Kategorie: Praca, Dom, Zakupy, Inne
+- ✅ Wyszukiwanie po nazwie zadania
+- ✅ Pasek postępu (procent ukończonych)
+- ✅ Przesuwanie zadań w górę / w dół
+- ✅ Zapis w `localStorage`
+- ✅ Animacje wejścia / hover / kliknięcia
+- ✅ Pełna responsywność (mobilne i desktop)
+- ✅ Wdrożenie na **GitHub Pages**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Jak uruchomić lokalnie
+
+```bash
+git clone https://github.com/Kornetas/ToDo-App.git
+cd ToDo-App
+npm install
+npm run dev
+```
