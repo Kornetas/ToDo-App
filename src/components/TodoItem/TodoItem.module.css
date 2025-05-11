@@ -1,0 +1,94 @@
+.item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 16px;
+  padding-top: 16px;
+  width: 100%;
+  animation: fadeInUp 0.5s ease;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 500;
+  width: 100%;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: var(--radius);
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  border-radius: 8px;
+  background-color: #eee;
+  color: #555;
+  font-weight: 500;
+}
+
+.tagBadge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 6px;
+  background-color: #eee;
+  color: #333;
+  text-transform: uppercase;
+}
+
+/* Dodatkowo kolorowanie według taga: */
+
+.tag-praca {
+  background-color: #3498db;
+  color: white;
+}
+
+.tag-dom {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.tag-zakupy {
+  background-color: #f39c12;
+  color: white;
+}
+
+.tag-inne {
+  background-color: #95a5a6;
+  color: white;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
